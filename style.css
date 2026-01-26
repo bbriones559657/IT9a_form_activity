@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', 'sans-serief';
+    max-width: 620px;
+    align-self: center;
+    justify-self: center;
+}
+
+form {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+fieldset {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+}
+

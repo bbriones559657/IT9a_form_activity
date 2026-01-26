@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>PhilSys Registration Form</p>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fName">First Name: </label>
+            <input type="text" required name="fName" id="fName" placeholder="Input first name">
+            <label for="mName">Middle Name: </label>
+            <input type="text" name="mName" id="mName">
+            <label for="lName">Last Name: </label>
+            <input type="text" required name="lName" id="lName">
+    
+            <label for="bPlace">Birthplace: </label>
+            <input type="text" name="bplace" id="bplace">
+            <label for="bDate">Birthdate: </label>
+            <input type="date" name="bDate" id="bDate">
+            <label for="sex">Sex: </label>
+            <input type="radio" name="male" id="sex"> Male
+            <input type="radio" name="female" id="sex">Female
+            <label for="bType">Blood Type: </label>
+            <input type="text" name="bType" id="bType">
+        </fieldset>    
+
+        <fieldset>
+            <legend>Address Information</legend>
+
+            <h4>Permanent Address</h3>
+            <label for="hNumber">House Number: </label>
+            <input type="text" name="hNumber" id="hNumber">
+            <label for="street">Street: </label>
+            <input type="text" name="street" id="street">
+            <label for="barangay">Barangay: </label>
+            <input type="text" name="barangay" id="barangay">
+            <label for="city">Municipality/City</label>
+            <input type="text" name="city" id="city">
+            <label for="province">Province: </label>
+            <input type="text" name="province" id="province">
+            <br><br>
+            <h4>Currnet Address</h4>
+            <label for="hNumber">House Number: </label>
+            <input type="text" name="hNumber" id="hNumber">
+            <label for="street">Street: </label>
+            <input type="text" name="street" id="street">
+            <label for="barangay">Barangay: </label>
+            <input type="text" name="barangay" id="barangay">
+            <label for="city">Municipality/City</label>
+            <input type="text" name="city" id="city">
+            <label for="province">Province: </label>
+            <input type="text" name="province" id="province">
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="pNumber">Phone Number: </label>
+            <input type="number" maxlength="11" name="pNumber" id="pNumber">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"> 
+            <input type="password" name="password" id="password">   
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color" value="#42b3f5">
+        </fieldset>
+
+        <label for="file">Upload File: </label>
+        <input type="file" name="file" id="file">
+
+        <div class="toc">
+            <h3>Terms and Condition</h3>
+            <p>1. Introduction
+                Welcome to [Website/Company Name]. These Terms and Conditions govern your access to and use of our website Website Name! and services. 
+                2. Acceptance of Terms
+                By accessing this website, we assume you accept these terms and conditions. Do not continue to use [Website Name] if you do not agree to all of the terms and conditions stated on this page. 
+                3. User Guidelines and Restrictions
+                You are restricted from: 
+                Publishing any website material in any media.
+                Selling, sublicensing, or commercializing any website material.
+                Using this website to damage or disrupt access for other users.
+                Engaging in data mining, data harvesting, or similar activities.
+            </p>
+            <label for="agree">Agree</label>
+            <input type="checkbox" name="agree" id="agree">
+            
+        </div>
+    </form>
+    
+
+</body> 
+</html>
