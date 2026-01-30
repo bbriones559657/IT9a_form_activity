@@ -1,21 +1,118 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-    font-family: 'Arial', 'sans-serief';
-    max-width: 620px;
-    align-self: center;
-    justify-self: center;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 form {
-    border: 1px solid black;
-    padding: 15px;
+    background: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-fieldset {
-    padding: 10px;
-    margin-top: 15px;
-}
-
-p {
+form > p {
+    font-size: 1.5rem;
+    font-weight: bold;
     text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #42b3f5;
+    padding-bottom: 10px;
 }
 
+/* Fieldset and Legend Styling */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #42b3f5;
+}
+
+h4 {
+    margin: 15px 0 10px 0;
+    color: #555;
+    border-left: 4px solid #42b3f5;
+    padding-left: 10px;
+}
+
+/* Input & Label Layout */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #42b3f5;
+    box-shadow: 0 0 5px rgba(66, 179, 245, 0.3);
+}
+
+/* Radio and Checkbox Styling */
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Terms and Conditions Section */
+.toc {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px inset #eee;
+}
+
+.toc h3 {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+#submit {
+    width: 100%;
+    background-color: #42b3f5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
